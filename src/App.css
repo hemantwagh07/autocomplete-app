@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.search-wrapper{
+  width: 200px;
+}
+.search-wrapper input{
+  width: 95%;
+}
+.search-wrapper .suggestions{
+border: 1px black solid;
+}

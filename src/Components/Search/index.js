@@ -30,12 +30,15 @@ export default class Search extends Component {
     render() {
         return (
             <div>
-                <h5>Search User</h5>
-                <div>
+                <div className="search-wrapper">
+                    <h5>Search User</h5>
                     <input type="text" name="userName" onChange={this.changeHandler} />
-                    {this.state.searchResults.map((result) => (
-                        <div key={Math.random(100)}>{result.title}</div>
-                    ))}
+                    <div className="suggestions">
+                        {this.state.searchResults.map((result) => (
+                            <div key={Math.random(100)}>{result.title}</div>
+                        ))}
+                    </div>
+
                 </div>
             </div>
         )

@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-test",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "js-server",
+      "author": "typicode123"
+    },
+    {
+      "id": 3,
+      "title": "Dell",
+      "author": "typicode123"
+    },
+    {
+      "id": 4,
+      "title": "keshav",
+      "author": "typicode123"
+    },
+    {
+      "id": 5,
+      "title": "keshww",
+      "author": "typicode123"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
